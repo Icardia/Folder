@@ -18,7 +18,7 @@ consumer.subscriptions.create({channel: "RoomChannel",
     jQuery(document).ready(function(){
       //alert($('#new_message').length)
       //$('<p>' + data['message'] + '</p>').appendTo('#new_message');
-      alert('a');
+      alert(room_id);
       $('#new_message').each(function(){
         this.reset();
       });
