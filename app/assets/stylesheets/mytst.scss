@@ -51,3 +51,7 @@ $g : rgb(223, 226, 228);
   background: darken($c, 10%);
   
 }
+
+.rooms{
+  border-bottom: 1px solid $g;
+}
