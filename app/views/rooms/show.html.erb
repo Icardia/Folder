@@ -7,9 +7,9 @@
 
   <div class="col">
     <div class='room-name'>
-      <h4>
+      <h3>
         <%= @room.name %>
-      </h4>
+      </h3>
     </div>
     <div class="chat" id="rm" data-channel-subscribe="room" data-room-id="<%= @room.id %>">
       <% @room_messages.each do |message| %>
