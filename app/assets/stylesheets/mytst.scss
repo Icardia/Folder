@@ -13,7 +13,7 @@ $white : #FFFFFF;
 
 .chat {
     border: 1px solid lighten($secondary, 40%);
-    background: lighten($secondary, 50%);
+    background: lighten($secondary, 70%);
     height: 50vh;
     border-radius: 5px 5px 0 0;
     overflow-y: auto;
@@ -34,9 +34,9 @@ $white : #FFFFFF;
   
     .message-content {
       padding: 5px;
-      border: 1px solid $primary;
+      border: 1px solid $secondary;
       border-radius: 5px;
-      background: lighten($primary, 10%);
+      background: lighten($secondary, 20%);
       color: $white;
     }
   
