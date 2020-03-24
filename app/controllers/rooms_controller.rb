@@ -6,10 +6,11 @@ class RoomsController < ApplicationController
     end
     
     def show
+        
         @room_message = Message.new room: @room
         @room_messages = @room.messages
+        
     end
-      
 
     def new
         @room = Room.new
