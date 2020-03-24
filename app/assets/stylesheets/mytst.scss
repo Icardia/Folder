@@ -14,7 +14,7 @@ $white : rgb(0, 0, 0);
 }
 
 .chat {
-    border: 1px solid $b;
+    border: 1px solid $a;
     background: lighten($b, 70%);
     height: 50vh;
     border-top: 0 none;
@@ -47,6 +47,6 @@ $white : rgb(0, 0, 0);
   padding:8px;
   border-bottom: 0 none;
   border-radius: 5px 5px 0 0;
-  background: darken($c, 20%);
-  border: 1px solid $b;
+  background: darken($c, 10%);
+  border: 1px solid $a;
 }
