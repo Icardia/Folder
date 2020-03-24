@@ -4,9 +4,11 @@ $b :rgb(178, 218, 250);
 $c : rgb(229, 243, 251);
 $d : rgb(255, 250, 250);
 $white : rgb(0, 0, 0);
+//color : $d;
 .room-nav-link {
     border: 1px solid $a;
     background: $c;
+    color : $d;
   
     & + .room-nav-link {
       border-top: 0 none;
@@ -35,7 +37,8 @@ $white : rgb(0, 0, 0);
       border: 1px solid $b;
       border-radius: 5px;
       background: $c;
-      color: $white;
+      //color: $white;
+      color : $d;
     }
   
     & + .chat-message-container {
@@ -49,4 +52,5 @@ $white : rgb(0, 0, 0);
   border-radius: 5px 5px 0 0;
   background: darken($c, 10%);
   border: 1px solid $a;
+  color : $d;
 }
