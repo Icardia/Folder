@@ -3,7 +3,7 @@ $a : rgb(146, 200, 245);
 $b :rgb(178, 218, 250);
 $c : rgb(229, 243, 251);
 $d : rgb(255, 250, 250);
-
+$g : rgb(223, 226, 228);
 .room-nav-link {
     //border: 1px solid $a;
     background: $c;
@@ -35,7 +35,7 @@ $d : rgb(255, 250, 250);
       padding: 10px;
       //border: 1px solid $b;
       border-radius: 5px;
-      background: $c;
+      background: $g;
     }
   
     & + .chat-message-container {
